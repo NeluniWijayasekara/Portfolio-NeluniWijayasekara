@@ -4,7 +4,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div  id='services' className='w-full px-[12%] py-10 scroll-mt-20'>
+    <div  id='services' className='w-full px-[18%] py-10 scroll-mt-20'>
        <h4 className='text-center mb-2 text-lg font-ovo'>What I offer</h4>
        <h2 className='text-center text-5xl font-Ovo'>My Services</h2>
 
@@ -12,7 +12,9 @@ const Services = () => {
         I am frontend developer from Gampaha,Sri Lanka.
        </p>
 
-       <div className='grid grid-cols-4 gap-6 my-10'>
+       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-10'>
+
+
 
         {serviceData.map(({icon,title,description,likn},index)=>(
 
