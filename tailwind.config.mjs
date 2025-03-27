@@ -22,5 +22,6 @@
         }
       },
     },
+    // darkMode:'selector',
     plugins: [],
   }
