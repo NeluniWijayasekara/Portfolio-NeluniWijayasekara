@@ -35,7 +35,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-
+// import mysky from './mysky.png';
 import icon_html from './icon_html.png'
 import icon_c_sharplogo from './icon_c_sharplogo.png'
 import icon_css from './icon_css.png'
@@ -117,6 +117,7 @@ export const assets = {
     icon_postman,
     icon_github,
     icon_powerbi,
+ 
 
 
 };
@@ -179,6 +180,17 @@ export const workData = [
         bgImage: '/Portfolio.png',
         tools: [
             { name: 'next js', icon: assets.icon_next_js},  
+            { name: 'T-CSS', icon: assets.icon_tailwindcss },  
+            { name: 'React', icon: assets.icon_react },  
+            
+           
+        ]
+    },
+    {
+        title: 'MySky',
+        description: 'About This Weather App is a test project built with React, fetching real-time data from the OpenWeatherMap API to display temperature, humidity, and wind speed. It includes a city search feature but is still a work in progress with basic animations. The app serves as a prototype for learning API interaction and building weather apps.',
+        bgImage: '/mysky.png',
+        tools: [
             { name: 'T-CSS', icon: assets.icon_tailwindcss },  
             { name: 'React', icon: assets.icon_react },  
             
