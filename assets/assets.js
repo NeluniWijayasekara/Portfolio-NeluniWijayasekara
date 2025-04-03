@@ -36,6 +36,8 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
+import icons_html from './icons_html.png'
+
 export const assets = {
     user_image,
     code_icon,
@@ -73,7 +75,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    icons_html,
 };
 
 export const workData = [
@@ -81,28 +84,48 @@ export const workData = [
         title: 'Frontend project',
         description: 'Web Design',
         bgImage: '/Apexcare.jpg',
+        tools: [
+            { name: 'React', icon: assets.vscode },  // Replace with React or other icon
+            { name: 'Firebase', icon: assets.firebase },  // Example Firebase icon
+        ]
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
         bgImage: '/NeonBrush.png',
+        tools: [
+            { name: 'React', icon: assets.vscode },  // Replace with appropriate React icon
+            { name: 'Git', icon: assets.git },  // Git icon for this project
+        ]
     },
     {
         title: 'Photography site',
         description: 'Web Design',
         bgImage: '/Netflix-clone.jpg',
+        tools: [
+            { name: 'Figma', icon: assets.figma },  // Figma for this project
+        ]
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/PizzaProject.jpg',
+        tools: [
+            { name: 'React', icon: assets.vscode },  // React icon for this project
+            { name: 'Figma', icon: assets.figma },  // Add a Figma icon for this project
+        ]
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/Portfolio.png',
+        tools: [
+            { name: 'React', icon: assets.vscode },  // React icon for this project
+            { name: 'Git', icon: assets.git },  // Add Git icon for this project
+        ]
     },
-]
+];
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
