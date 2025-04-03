@@ -36,7 +36,28 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
-import icons_html from './icons_html.png'
+import icon_html from './icon_html.png'
+import icon_c_sharplogo from './icon_c_sharplogo.png'
+import icon_css from './icon_css.png'
+import icon_java from './icon_java.png'
+import icon_js from './icon_js.png'
+import icon_mysql from './icon_mysql.png'
+import icon_net_framework from './icon_net_framework.png'
+import icon_node_js from './icon_node_js.png'
+import icon_python from './icon_python.png'
+import icon_r from './icon_r.png'
+import icon_react from './icon_react.png'
+import icon_spring_boot from './icon_spring_boot.png'
+import icon_tailwindcss from './icon_tailwindcss.png'
+import icons_c from './icons_c.png'
+import icon_php from './icon_php.png'
+import icon_next_js from './icon_next_js.png'
+import icon_vite from './icon_vite.png'
+import icon_postman from './icon_postman.png'
+import icon_github from './icon_github.png'
+import icon_powerbi from './icon_powerbi.png'
+
+
 
 export const assets = {
     user_image,
@@ -76,52 +97,92 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    icons_html,
+    icon_html,
+    icon_c_sharplogo,
+    icon_css,
+    icon_java,
+    icon_js,
+    icon_mysql,
+    icon_net_framework,
+    icon_node_js,
+    icon_python,
+    icon_r,
+    icon_react,
+    icon_spring_boot,
+    icon_tailwindcss,
+    icons_c,
+    icon_php,
+    icon_next_js,
+    icon_vite,
+    icon_postman,
+    icon_github,
+    icon_powerbi,
+
+
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'ApexCare',
+        description: 'ApexCare Hospital Management SystemA comprehensive system that streamlines patient care and administration, improving efficiency and satisfaction. Key features: doctor channeling, prescription management, emergency services, outpatient handling, online pharmacy, and payment processing.',
         bgImage: '/Apexcare.jpg',
         tools: [
-            { name: 'React', icon: assets.vscode },  // Replace with React or other icon
-            { name: 'Firebase', icon: assets.firebase },  // Example Firebase icon
+            { name: 'HTML', icon: assets.icon_html },  
+            { name: 'CSS', icon: assets.icon_css },  
+            { name: 'JS', icon: assets.icon_js }, 
+            { name: 'PHP', icon: assets.icon_php }, 
+            { name: 'mysql', icon: assets.icon_mysql }, 
         ]
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Neon Brush',
+        description: 'Neon Brush Digital Art Gallery (Group Project)Created an online platform for artists to display and sell their work, promoting access to art and supporting creatives. Features include artist profiles, artwork listings, and secure transactions.',
         bgImage: '/NeonBrush.png',
         tools: [
-            { name: 'React', icon: assets.vscode },  // Replace with appropriate React icon
-            { name: 'Git', icon: assets.git },  // Git icon for this project
+            { name: 'React', icon: assets.icon_react },  
+            { name: 'T-CSS', icon: assets.icon_tailwindcss },  
+            { name: 'sprinboot', icon: assets.icon_spring_boot}, 
+            { name: 'java', icon: assets.icon_java }, 
+              { name: 'Figma', icon: assets.figma },  
+              { name: 'mongo db', icon: assets.mongodb }, 
+              { name: 'vite', icon: assets.icon_vite }, 
+               
+               
+
         ]
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Media Streaming Platform',
+        description: 'Media Streaming Platform Created a fully functional Netflix clone that replicates the core features of the popular streaming service, providing users with an engaging entertainment experience. This project includes user authentication, content browsing, and media playback functionalities.',
         bgImage: '/Netflix-clone.jpg',
         tools: [
-            { name: 'Figma', icon: assets.figma },  // Figma for this project
+            { name: 'html', icon: assets.icon_html },  
+            { name: 'CSS', icon: assets.icon_css },  
+            { name: 'sprinboot', icon: assets.icon_spring_boot}, 
+            { name: 'java', icon: assets.icon_java }, 
+            { name: 'mysql', icon: assets.icon_mysql }, 
         ]
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Pizza Delivery System',
+        description: 'Designed a pizza delivery application that optimizes order processing and delivery logistics, improving customer satisfaction through timely service. This project focuses on user-friendly interfaces for order placement and real-time tracking of deliveries.',
         bgImage: '/PizzaProject.jpg',
         tools: [
-            { name: 'React', icon: assets.vscode },  // React icon for this project
-            { name: 'Figma', icon: assets.figma },  // Add a Figma icon for this project
+            { name: '.net', icon: assets.icon_net_framework },  
+            { name: 'c#', icon: assets.icon_c_sharplogo}, 
+            { name: 'mysql', icon: assets.icon_mysql }, 
         ]
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Portfolio Website',
+        description: 'A personal portfolio website showcasing projects, skills, and contact information.',
         bgImage: '/Portfolio.png',
         tools: [
-            { name: 'React', icon: assets.vscode },  // React icon for this project
-            { name: 'Git', icon: assets.git },  // Add Git icon for this project
+            { name: 'next js', icon: assets.icon_next_js},  
+            { name: 'T-CSS', icon: assets.icon_tailwindcss },  
+            { name: 'React', icon: assets.icon_react },  
+            
+           
         ]
     },
 ];
@@ -135,11 +196,15 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, C, C#, SQL , R' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: ' B.Sc. (Hons) in Computer Science at the University of Kelaniya, Sri Lanka' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.icon_html ,assets.icon_css,assets.icon_js,assets.icon_react,assets.icon_next_js,
+    assets.icon_tailwindcss,assets.icon_vite,assets.icon_node_js,assets.icon_spring_boot,
+    assets.icon_net_framework,assets.icon_php,assets.icon_c_sharplogo,assets.icons_c, assets.icon_java,assets.icon_python,
+    assets.icon_mysql,assets.mongodb,assets.git,assets.icon_github,assets.figma,assets.icon_r,assets.icon_powerbi,
+   assets.icon_postman
 ];

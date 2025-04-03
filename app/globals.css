@@ -3,3 +3,14 @@
   font-family: Outfit;
 }
 
+/* In styles/globals.css or your global CSS file */
+body {
+  background-color: #f5e3ee; /* Replace with your desired color */
+  color: #333; /* Optional: Set a text color */
+}
+
+/* If you want to apply it to the whole HTML structure */
+html {
+  background-color: #f7d8ec; /* Set background color */
+  height: 100%; /* Ensure full height for background */
+}

@@ -7,8 +7,8 @@ import ToolList from './ToolList'; // Import the ToolList component
 
 const Work = () => {
   return (
-    <div id='work' className='w-full px-[20%] py-6 scroll-mt-20'>
-       <h4 className='text-center mb-2 text-lg font-ovo'>My portfolio</h4>
+    <div id='work' className='w-full px-[10%] py-12 scroll-mt-20'>
+       <h4 className='text-center mb-2 text-lg  text-gray-700'>My portfolio</h4>
        <h2 className='text-center text-5xl font-Ovo'>My latest work</h2>
 
        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
@@ -16,11 +16,11 @@ const Work = () => {
         projects showcasing my expertise in front-end development.
        </p>
 
-       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-15 my-12'>
+       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-19 my-12'>
         {workData.map((project, index) => (
           <div 
             key={index} 
-            className='relative group'
+            className='relative group  bg-white shadow-lg transform hover:scale-105 hover:shadow-2xl transition-all duration-300 border-2 border-transparent rounded-lg group-hover:border-gray-500 group-hover:border-2 hover:border-4 hover:border-pink-300'
           >
             {/* ToolList outside of the project */}
             <ToolList tools={project.tools} />

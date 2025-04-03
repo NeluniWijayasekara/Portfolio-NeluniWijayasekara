@@ -43,7 +43,7 @@ const Contact = () => {
         please use the form below.
       </p>
 
-      <form onSubmit={onSubmit} action="" className="max-w-2xl mx-auto">
+      <form onSubmit={onSubmit} action="" className="max-w-2xl mx-auto ">
         {/* Responsive Grid Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-6">
           <input 
