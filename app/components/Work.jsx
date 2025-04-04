@@ -2,12 +2,24 @@
 import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import React from 'react'
+import React, { useState } from 'react';
 import ToolList from './ToolList'; // Import the ToolList component
+import ViewProject from './ViewProject'; 
 
 const Work = () => {
+
+  // const [selectedProject, setSelectedProject] = useState(null);
+
+  // const handleProjectClick = (project) => {
+  //   setSelectedProject(project);
+  // };
+
+  // const handleCloseModal = () => {
+  //   setSelectedProject(null);
+  // };
+
   return (
-    <div id='work' className='w-full px-4 sm:px-10 py-12 scroll-mt-20'>
+    <div id='work' className="w-full px-[10%] py-12 scroll-mt-20">
        <h4 className='text-center mb-2 text-lg  text-gray-700'>My portfolio</h4>
        <h2 className='text-center text-3xl sm:text-5xl font-Ovo'>My latest work</h2>
 
@@ -21,6 +33,7 @@ const Work = () => {
           <div 
             key={index} 
             className='relative group  bg-white shadow-lg transform hover:scale-105 hover:shadow-2xl transition-all duration-300 border-2 border-transparent rounded-lg group-hover:border-gray-500 group-hover:border-2 hover:border-4 hover:border-pink-300'
+            // onClick={() => handleProjectClick(project)} // Open modal on click
           >
             {/* ToolList outside of the project */}
             <ToolList tools={project.tools} />
@@ -31,23 +44,30 @@ const Work = () => {
                 <div className='text-center text-white px-5'>
                   <h2 className='font-semibold text-lg'>{project.title}</h2>
                   <p className='text-sm mt-2'>{project.description}</p>
+
+                  
+                  {/* Add the Source Code Button */}
+                  <a 
+                    href={project.sourceCode} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-400 transition duration-300"
+                  >
+                    Source Code
+                  </a>
+                  
                 </div>
               </div>
 
-              <motion.div 
-                initial={{ y: '100%' }}
-                whileHover={{ y: 0 }}
-                transition={{ duration: 0.4, ease: 'easeInOut' }}
-                className='absolute bottom-0 left-0 w-full bg-white bg-opacity-90 py-3 px-5 flex flex-col items-start justify-center'
-              >
-                <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-lime-300 transition-all duration-300 mt-3'>
-                  <Image src={assets.send_icon} alt='send icon' className='w-5'/>
-                </div>
-              </motion.div>
+             
             </div>
           </div>
         ))}
        </div>
+        {/* Show the modal when a project is selected */}
+      {/* {selectedProject && (
+        <ViewProject project={selectedProject} onClose={handleCloseModal} />
+      )} */}
     </div>
   )
 }

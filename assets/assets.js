@@ -124,82 +124,154 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'ApexCare',
-        description: 'ApexCare Hospital Management SystemA comprehensive system that streamlines patient care and administration, improving efficiency and satisfaction. Key features: doctor channeling, prescription management, emergency services, outpatient handling, online pharmacy, and payment processing.',
-        bgImage: '/Apexcare.jpg',
-        tools: [
-            { name: 'HTML', icon: assets.icon_html },  
-            { name: 'CSS', icon: assets.icon_css },  
-            { name: 'JS', icon: assets.icon_js }, 
-            { name: 'PHP', icon: assets.icon_php }, 
-            { name: 'mysql', icon: assets.icon_mysql }, 
-        ]
+      title: 'ApexCare',
+      description: 'ApexCare Hospital Management System. A comprehensive system that streamlines patient care and administration, improving efficiency and satisfaction. Key features: doctor channeling, prescription management, emergency services, outpatient handling, online pharmacy, and payment processing.',
+      bgImage: '/Apexcare.jpg',
+      tools: [
+        { name: 'HTML', icon: assets.icon_html },
+        { name: 'CSS', icon: assets.icon_css },
+        { name: 'JS', icon: assets.icon_js },
+        { name: 'PHP', icon: assets.icon_php },
+        { name: 'MySQL', icon: assets.icon_mysql },
+      ],
+      images: [
+        assets.user_image,
+        assets.user_image,
+        assets.user_image
+      ],
+      functionalities: [
+        'Doctor channeling',
+        'Prescription management',
+        'Emergency services',
+        'Outpatient handling',
+        'Online pharmacy',
+        'Payment processing'
+      ],
+      backendImages: [
+        assets.user_image,
+        assets.user_image,
+        assets.user_image
+      ],
+      frontendImages: [
+        assets.user_image,
+        assets.user_image,
+        assets.user_image
+      ],
+      sourceCode: 'https://github.com/NeluniWijayasekara/ApexCare',  // GitHub link added
     },
     {
-        title: 'Neon Brush',
-        description: 'Neon Brush Digital Art Gallery (Group Project)Created an online platform for artists to display and sell their work, promoting access to art and supporting creatives. Features include artist profiles, artwork listings, and secure transactions.',
-        bgImage: '/NeonBrush.png',
-        tools: [
-            { name: 'React', icon: assets.icon_react },  
-            { name: 'T-CSS', icon: assets.icon_tailwindcss },  
-            { name: 'sprinboot', icon: assets.icon_spring_boot}, 
-            { name: 'java', icon: assets.icon_java }, 
-              { name: 'Figma', icon: assets.figma },  
-              { name: 'mongo db', icon: assets.mongodb }, 
-              { name: 'vite', icon: assets.icon_vite }, 
-               
-               
-
-        ]
+      title: 'Neon Brush',
+      description: 'Neon Brush Digital Art Gallery (Group Project). Created an online platform for artists to display and sell their work, promoting access to art and supporting creatives. Features include artist profiles, artwork listings, and secure transactions.',
+      bgImage: '/NeonBrush.png',
+      tools: [
+        { name: 'React', icon: assets.icon_react },
+        { name: 'T-CSS', icon: assets.icon_tailwindcss },
+        { name: 'Spring Boot', icon: assets.icon_spring_boot },
+        { name: 'Java', icon: assets.icon_java },
+        { name: 'Figma', icon: assets.figma },
+        { name: 'MongoDB', icon: assets.mongodb },
+        { name: 'Vite', icon: assets.icon_vite },
+      ],
+      images: [
+        assets.user_image,
+        assets.user_image,
+        assets.user_image
+      ],
+      functionalities: [
+        'Artist profile creation',
+        'Artwork listing',
+        'Secure payment processing',
+        'Artwork viewing',
+        'Artist dashboard',
+        'User authentication'
+      ],
+      sourceCode: 'https://github.com/Ishini-Kaushalya/NeonBrush-Digital-Art-Gallery',  // GitHub link added
     },
     {
-        title: 'Media Streaming Platform',
-        description: 'Media Streaming Platform Created a fully functional Netflix clone that replicates the core features of the popular streaming service, providing users with an engaging entertainment experience. This project includes user authentication, content browsing, and media playback functionalities.',
-        bgImage: '/Netflix-clone.jpg',
-        tools: [
-            { name: 'html', icon: assets.icon_html },  
-            { name: 'CSS', icon: assets.icon_css },  
-            { name: 'sprinboot', icon: assets.icon_spring_boot}, 
-            { name: 'java', icon: assets.icon_java }, 
-            { name: 'mysql', icon: assets.icon_mysql }, 
-        ]
+      title: 'Media Streaming Platform',
+      description: 'Media Streaming Platform. Created a fully functional Netflix clone that replicates the core features of the popular streaming service, providing users with an engaging entertainment experience. This project includes user authentication, content browsing, and media playback functionalities.',
+      bgImage: '/Netflix-clone.jpg',
+      tools: [
+        { name: 'HTML', icon: assets.icon_html },
+        { name: 'CSS', icon: assets.icon_css },
+        { name: 'Spring Boot', icon: assets.icon_spring_boot },
+        { name: 'Java', icon: assets.icon_java },
+        { name: 'MySQL', icon: assets.icon_mysql },
+      ],
+      images: [
+        assets.user_image,
+        assets.user_image,
+        assets.user_image
+      ],
+      functionalities: [
+        'User authentication',
+        'Content browsing',
+        'Media playback',
+        'User profiles',
+      ],
+      sourceCode: 'https://github.com/NeluniWijayasekara/Netflix-clone',  // GitHub link added
     },
     {
-        title: 'Pizza Delivery System',
-        description: 'Designed a pizza delivery application that optimizes order processing and delivery logistics, improving customer satisfaction through timely service. This project focuses on user-friendly interfaces for order placement and real-time tracking of deliveries.',
-        bgImage: '/PizzaProject.jpg',
-        tools: [
-            { name: '.net', icon: assets.icon_net_framework },  
-            { name: 'c#', icon: assets.icon_c_sharplogo}, 
-            { name: 'mysql', icon: assets.icon_mysql }, 
-        ]
+      title: 'Pizza Delivery System',
+      description: 'Designed a pizza delivery application that optimizes order processing and delivery logistics, improving customer satisfaction through timely service. This project focuses on user-friendly interfaces for order placement and real-time tracking of deliveries.',
+      bgImage: '/PizzaProject.jpg',
+      tools: [
+        { name: '.NET', icon: assets.icon_net_framework },
+        { name: 'C#', icon: assets.icon_c_sharplogo },
+        { name: 'MySQL', icon: assets.icon_mysql },
+      ],
+      images: [
+        assets.user_image,
+        assets.user_image,
+        assets.user_image
+      ],
+      functionalities: [
+        'Order placement',
+        'Real-time delivery tracking',
+        'Order customization',
+        'User-friendly UI/UX'
+      ],
+      sourceCode: 'https://github.com/NeluniWijayasekara/Pizza-Delivery-System',  // GitHub link added
     },
     {
-        title: 'Portfolio Website',
-        description: 'A personal portfolio website showcasing projects, skills, and contact information.',
-        bgImage: '/Portfolio.png',
-        tools: [
-            { name: 'next js', icon: assets.icon_next_js},  
-            { name: 'T-CSS', icon: assets.icon_tailwindcss },  
-            { name: 'React', icon: assets.icon_react },  
-            
-           
-        ]
+      title: 'Portfolio Website',
+      description: 'A personal portfolio website showcasing projects, skills, and contact information.',
+      bgImage: '/Portfolio.png',
+      tools: [
+        { name: 'Next.js', icon: assets.icon_next_js },
+        { name: 'T-CSS', icon: assets.icon_tailwindcss },
+        { name: 'React', icon: assets.icon_react },
+      ],
+      images: [],
+      functionalities: [
+        'Project showcase',
+        'Contact form',
+        'Responsive design',
+        'About me section',
+        'Skill showcase'
+      ],
+      sourceCode: 'https://github.com/NeluniWijayasekara/Portfolio-NeluniWijayasekara',  // GitHub link added
     },
     {
-        title: 'MySky',
-        description: 'About This Weather App is a test project built with React, fetching real-time data from the OpenWeatherMap API to display temperature, humidity, and wind speed. It includes a city search feature but is still a work in progress with basic animations. The app serves as a prototype for learning API interaction and building weather apps.',
-        bgImage: '/mysky.png',
-        tools: [
-            { name: 'T-CSS', icon: assets.icon_tailwindcss },  
-            { name: 'React', icon: assets.icon_react },  
-            
-           
-        ]
-    },
-];
-
-
+      title: 'MySky',
+      description: 'This Weather App is a test project built with React, fetching real-time data from the OpenWeatherMap API to display temperature, humidity, and wind speed. It includes a city search feature but is still a work in progress with basic animations. The app serves as a prototype for learning API interaction and building weather apps.',
+      bgImage: '/mysky.png',
+      tools: [
+        { name: 'T-CSS', icon: assets.icon_tailwindcss },
+        { name: 'React', icon: assets.icon_react },
+      ],
+      images: [],
+      functionalities: [
+        'City search',
+        'Weather data display',
+        'Temperature, humidity, and wind speed',
+        'Real-time weather updates',
+        'Basic animations'
+      ],
+      sourceCode: 'https://github.com/NeluniWijayasekara/Mysky',  // GitHub link added
+    }
+  ];
+  
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
@@ -220,3 +292,50 @@ export const toolsData = [
     assets.icon_mysql,assets.mongodb,assets.git,assets.icon_github,assets.figma,assets.icon_r,assets.icon_powerbi,
    assets.icon_postman
 ];
+export const projectViewData = [
+    {
+      id: 3,
+      title: "ApexCare",
+      description: "ApexCare is a comprehensive hospital management system designed to streamline patient care and administration. It includes features like doctor channeling, prescription management, emergency services, outpatient handling, and online pharmacy.",
+      bgImage: assets.Apexcare, // Use the existing image from assets as background
+      images: [
+        assets.user_image, // Dummy image from assets
+        assets.user_image, // Dummy image from assets
+        assets.user_image  // Dummy image from assets
+      ]
+    },
+    {
+      id: 4,
+      title: "Neon Brush",
+      description: "Neon Brush is a digital art gallery platform where artists can display and sell their work. It allows users to create profiles, showcase their artworks, and make secure transactions.",
+      bgImage: assets.user_image, // Use the existing image from assets as background
+      images: [
+        assets.user_image, // Dummy image from assets
+        assets.user_image, // Dummy image from assets
+        assets.user_image  // Dummy image from assets
+      ]
+    },
+    {
+      id: 5,
+      title: "Media Streaming Platform",
+      description: "A fully functional media streaming platform that replicates core Netflix features. This project includes user authentication, content browsing, and media playback functionalities.",
+      bgImage: assets.user_image, // Use the existing image from assets as background
+      images: [
+        assets.user_image, // Dummy image from assets
+        assets.user_image, // Dummy image from assets
+        assets.user_image  // Dummy image from assets
+      ]
+    },
+    {
+      id: 6,
+      title: "Pizza Delivery System",
+      description: "A pizza delivery app that optimizes order processing and delivery logistics. It includes a user-friendly interface for order placement and real-time tracking of deliveries.",
+      bgImage: assets.user_image, // Use the existing image from assets as background
+      images: [
+        assets.user_image, // Dummy image from assets
+        assets.user_image, // Dummy image from assets
+        assets.user_image  // Dummy image from assets
+      ]
+    }
+  ];
+  
