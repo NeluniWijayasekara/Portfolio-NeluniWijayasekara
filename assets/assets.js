@@ -252,24 +252,24 @@ export const workData = [
       ],
       sourceCode: 'https://github.com/NeluniWijayasekara/Portfolio-NeluniWijayasekara',  // GitHub link added
     },
-    {
-      title: 'MySky',
-      description: 'This Weather App is a test project built with React, fetching real-time data from the OpenWeatherMap API to display temperature, humidity, and wind speed. It includes a city search feature but is still a work in progress with basic animations. The app serves as a prototype for learning API interaction and building weather apps.',
-      bgImage: '/mysky.png',
-      tools: [
-        { name: 'T-CSS', icon: assets.icon_tailwindcss },
-        { name: 'React', icon: assets.icon_react },
-      ],
-      images: [],
-      functionalities: [
-        'City search',
-        'Weather data display',
-        'Temperature, humidity, and wind speed',
-        'Real-time weather updates',
-        'Basic animations'
-      ],
-      sourceCode: 'https://github.com/NeluniWijayasekara/Mysky',  // GitHub link added
-    }
+    // {
+    //   title: 'MySky',
+    //   description: 'This Weather App is a test project built with React, fetching real-time data from the OpenWeatherMap API to display temperature, humidity, and wind speed. It includes a city search feature but is still a work in progress with basic animations. The app serves as a prototype for learning API interaction and building weather apps.',
+    //   bgImage: '/mysky.png',
+    //   tools: [
+    //     { name: 'T-CSS', icon: assets.icon_tailwindcss },
+    //     { name: 'React', icon: assets.icon_react },
+    //   ],
+    //   images: [],
+    //   functionalities: [
+    //     'City search',
+    //     'Weather data display',
+    //     'Temperature, humidity, and wind speed',
+    //     'Real-time weather updates',
+    //     'Basic animations'
+    //   ],
+    //   sourceCode: 'https://github.com/NeluniWijayasekara/Mysky',  // GitHub link added
+    // }
   ];
   
 export const serviceData = [
