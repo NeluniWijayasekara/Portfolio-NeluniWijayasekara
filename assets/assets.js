@@ -160,7 +160,7 @@ export const workData = [
       sourceCode: 'https://github.com/NeluniWijayasekara/ApexCare',  // GitHub link added
     },
     {
-      title: 'Neon Brush',
+      title: 'Neon Brush (FullStack Project)',
       description: 'Neon Brush Digital Art Gallery (Group Project). Created an online platform for artists to display and sell their work, promoting access to art and supporting creatives. Features include artist profiles, artwork listings, and secure transactions.',
       bgImage: '/NeonBrush.png',
       tools: [
