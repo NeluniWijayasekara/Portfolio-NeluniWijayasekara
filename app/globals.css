@@ -3,14 +3,45 @@
   font-family: Outfit;
 }
 
-/* In styles/globals.css or your global CSS file */
-body {
-  background-color: #f5e3ee; /* Replace with your desired color */
-  color: #333; /* Optional: Set a text color */
+/* styles/globals.css */
+
+html {
+  background-color: #1a0826;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
-/* If you want to apply it to the whole HTML structure */
-html {
-  background-color: #f7d8ec; /* Set background color */
-  height: 100%; /* Ensure full height for background */
+body {
+  background-color: #1a0826;
+  color: #E0D4FF;
+  font-family: 'Ovo', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Highlight classes you can use in your JSX */
+.highlight {
+  color: #C084FC; /* Vibrant purple highlight */
+}
+
+.border-highlight {
+  border-color: #C084FC;
+}
+
+.bg-highlight {
+  background-color: #C084FC;
+}
+
+/* Optional scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C084FC; 
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a0826;
 }

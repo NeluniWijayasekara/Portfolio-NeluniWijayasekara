@@ -20,7 +20,7 @@ const Work = () => {
 
   return (
     <div id='work' className="w-full px-[10%] py-12 scroll-mt-20">
-       <h4 className='text-center mb-2 text-lg  text-gray-700'>My portfolio</h4>
+       <h4 className='text-center mb-2 text-lg  text-[#B388EB]'>My portfolio</h4>
        <h2 className='text-center text-3xl sm:text-5xl font-Ovo'>My latest work</h2>
 
        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>

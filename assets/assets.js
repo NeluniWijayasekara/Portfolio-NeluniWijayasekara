@@ -57,7 +57,9 @@ import icon_postman from './icon_postman.png'
 import icon_github from './icon_github.png'
 import icon_powerbi from './icon_powerbi.png'
 
-
+import { FaCode } from "react-icons/fa";
+import { FaFolderClosed } from "react-icons/fa6";
+import { GiGraduateCap } from "react-icons/gi";
 
 export const assets = {
     user_image,
@@ -280,9 +282,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, C, C#, SQL , R' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: ' B.Sc. (Hons) in Computer Science at the University of Kelaniya, Sri Lanka' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+  { icon: <FaCode size={28} />, title: "Developer", description: "I build responsive web apps." },
+  { icon: <GiGraduateCap size={28} />, title: "Student", description: "B.Sc. (Hons) in Computer Science." },
+  { icon: <FaFolderClosed size={28} />, title: "Projects", description: "Passionate about building projects." }
 ];
 
 export const toolsData = [
