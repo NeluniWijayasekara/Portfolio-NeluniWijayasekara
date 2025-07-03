@@ -34,7 +34,7 @@ const Contact = () => {
     <div 
       id="contact" 
       className="w-full px-6 sm:px-12 md:px-[12%] py-10 scroll-mt-20 
-      bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-cover"
+       "
     >
       <h4 className="text-center mb-2 text-lg sm:text-xl font-ovo">Connect with me</h4>
       <h2 className="text-center text-3xl sm:text-5xl font-ovo">Get in touch</h2>
@@ -50,14 +50,14 @@ const Contact = () => {
             type="text" 
             placeholder="Enter your name" 
             required
-            className="p-3 outline-none border border-gray-400 rounded-md bg-white w-full"
+            className="p-3 outline-none border border-gray-400 rounded-md bg-white w-full placeholder-gray-500" 
             name='name'
           />
           <input 
             type="email" 
             placeholder="Enter your email" 
             required
-            className="p-3 outline-none border border-gray-400 rounded-md bg-white w-full"
+            className="p-3 outline-none border border-gray-400 rounded-md bg-white w-full  placeholder-gray-500 "
             name='email'
           />
         </div>
@@ -66,7 +66,7 @@ const Contact = () => {
           rows="6" 
           placeholder="Enter your message" 
           required 
-          className="w-full p-4 outline-none border border-gray-400 rounded-md bg-white mb-6"
+          className="w-full p-4 outline-none border border-gray-400 rounded-md  bg-white placeholder-gray-500 mb-6"
           name='message'
         ></textarea>
 

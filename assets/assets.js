@@ -254,24 +254,19 @@ export const workData = [
       ],
       sourceCode: 'https://github.com/NeluniWijayasekara/Portfolio-NeluniWijayasekara',  // GitHub link added
     },
-    // {
-    //   title: 'MySky',
-    //   description: 'This Weather App is a test project built with React, fetching real-time data from the OpenWeatherMap API to display temperature, humidity, and wind speed. It includes a city search feature but is still a work in progress with basic animations. The app serves as a prototype for learning API interaction and building weather apps.',
-    //   bgImage: '/mysky.png',
-    //   tools: [
-    //     { name: 'T-CSS', icon: assets.icon_tailwindcss },
-    //     { name: 'React', icon: assets.icon_react },
-    //   ],
-    //   images: [],
-    //   functionalities: [
-    //     'City search',
-    //     'Weather data display',
-    //     'Temperature, humidity, and wind speed',
-    //     'Real-time weather updates',
-    //     'Basic animations'
-    //   ],
-    //   sourceCode: 'https://github.com/NeluniWijayasekara/Mysky',  // GitHub link added
-    // }
+    {
+      title: 'Food Ordering -Figma Design',
+      description: '',
+      bgImage: '/mysky.png',
+      tools: [
+        { name: 'Figma', icon: assets.figma },
+      ],
+      images: [],
+      functionalities: [
+       
+      ],
+      sourceCode: 'https://www.figma.com/design/naCwXcl8E4KtbtAOI1r0Q1/Untitled?node-id=0-1&p=f&t=jfDtYkBOiZy9xcVi-0',  // url
+    }
   ];
   
 export const serviceData = [
@@ -328,18 +323,6 @@ export const projectViewData = [
         assets.user_image  // Dummy image from assets
       ]
     },
-    {
-      id: 6,
-      title: "Pizza Delivery System",
-      description: "A pizza delivery app that optimizes order processing and delivery logistics. It includes a user-friendly interface for order placement and real-time tracking of deliveries.",
-      bgImage: assets.user_image, // Use the existing image from assets as background
-      images: [
-        assets.user_image, // Dummy image from assets
-        assets.user_image, // Dummy image from assets
-        assets.user_image  // Dummy image from assets
-      ]
-    }
-    ,
     {
       id: 6,
       title: "Pizza Delivery System",
