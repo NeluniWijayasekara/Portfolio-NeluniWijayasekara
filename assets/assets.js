@@ -339,5 +339,17 @@ export const projectViewData = [
         assets.user_image  // Dummy image from assets
       ]
     }
+    ,
+    {
+      id: 6,
+      title: "Pizza Delivery System",
+      description: "A pizza delivery app that optimizes order processing and delivery logistics. It includes a user-friendly interface for order placement and real-time tracking of deliveries.",
+      bgImage: assets.user_image, // Use the existing image from assets as background
+      images: [
+        assets.user_image, // Dummy image from assets
+        assets.user_image, // Dummy image from assets
+        assets.user_image  // Dummy image from assets
+      ]
+    }
   ];
   
